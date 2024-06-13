@@ -79,12 +79,12 @@ const TASKTYPEICON = {
 };
 
 const act_types = [
-  "Начато",
-  "Завершено",
-  "В работе",
-  "Комментарий",
-  "Баги",
-  "Принято",
+  "Started",
+  "Completed",
+  "In Progress",
+  "Commented",
+  "Bug",
+  "Assigned",
 ];
 
 const TaskDetails = () => {

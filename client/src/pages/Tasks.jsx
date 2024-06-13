@@ -21,7 +21,7 @@ const TABS = [
 
 const TASK_TYPE = {
   todo: "bg-blue-600",
-  "s": "bg-yellow-600",
+  "in progress": "bg-yellow-600",
   completed: "bg-green-600",
 };
 
@@ -45,7 +45,7 @@ const Tasks = () => {
   ) : (
     <div className='w-full'>
       <div className='flex items-center justify-between mb-4'>
-        <Title title={status ? `${status} Tasks` : "Задачи"} />
+        {/* <Title title={status ? `${status} Задачи` : "Задачи"} /> */}
 
         {!status && (
           <Button

@@ -48,7 +48,7 @@ const Login = () => {
               Планировать и управлять легко!
             </span>
             <p className='flex flex-col gap-0 md:gap-4 text-4xl md:text-6xl 2xl:text-7xl font-black text-center text-blue-700'>
-              <span>Планироващик</span>
+              <span>Планировщик</span>
               <span>Задач</span>
             </p>
 
@@ -94,16 +94,16 @@ const Login = () => {
                 error={errors.password ? errors.password.message : ""}
               />
 
-              <span className='text-sm text-gray-500 hover:text-blue-600 hover:underline cursor-pointer'>
+              {/* <span className='text-sm text-gray-500 hover:text-blue-600 hover:underline cursor-pointer'>
                 Забыли пароль?
-              </span>
+              </span> */}
 
               {isLoading ? (
               <Loading /> 
               ) : ( 
               <Button
                 type='submit'
-                label='Submit'
+                label='Войти'
                 className='w-full h-10 bg-blue-700 text-white rounded-full'
               />
             )}
